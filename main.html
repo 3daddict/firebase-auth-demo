@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Firebase Web App</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    
+
 </head>
 <body>
-    
-    <script src="firebase.js"></script>
+
+    <h1>Welcome to Firebase App</h1>
+    <button onclick="mainApp.logout()">logout</button>
+
+    <div>
+        <button onclick="mainApp.Create()">Create</button>
+        <button onclick="mainApp.Read()">Read</button>
+        <button onclick="mainApp.Update()">Update</button>
+        <button onclick="mainApp.Delete()">Delete</button>
+    </div>
+
+
+    <script src="fireBase.js"></script>
     <script src="login.js"></script>
 </body>
 </html>
